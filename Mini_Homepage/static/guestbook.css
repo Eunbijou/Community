@@ -1,0 +1,53 @@
+.guest{
+  overflow: scroll;
+}
+
+.guest-box{
+  height: 300px;
+  width: 520px;
+
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.guest-box-title{
+  background-color: rgba(201, 201, 201, 0.829);
+  flex: 1;
+
+  padding-left: 30px;
+}
+
+.guest-box-main{
+  flex: 8;
+
+  display: flex;
+}
+
+.guest-box-picture{
+  flex: 3;
+  padding-top: 30px;
+}
+
+.guest-box-content{
+  flex: 7;
+  padding: 30px;
+}
+
+.guestbook-image {
+  flex: 0 0 8rem;
+  height: 8rem;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-1 {
+  background-image: url("./images/background1.jpg");
+  background-size: cover;
+}
+
+.guestbook-image > img {
+  width: 100%;
+} 

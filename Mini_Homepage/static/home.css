@@ -1,0 +1,85 @@
+.news-flex-box {
+  flex: 0 0 auto;
+  margin-bottom: 2rem;
+  display: flex;
+  font-size: 0.8rem;
+}
+
+.news-box {
+  flex: 1;
+}
+
+.update-box {
+  flex: 1;
+}
+
+.miniroom {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-title {
+  border-bottom: 1px solid grey;
+  color: #3b87ab;
+  font-size: 20px;
+  font-weight: bold;
+  color: #add1dc;
+}
+
+.headmenu{
+  font-size: 14px;
+  font-weight: lighter;
+  color: rgb(199, 199, 199);
+}
+
+.news-row {
+  display: flex;
+  font-size: 0.85rem;
+  margin: 3px 0;
+}
+
+.news-category {
+  padding: 0 6px;
+  margin-right: 6px;
+  color: white;
+  border-radius: 3px;
+}
+
+.category-pic {
+  background-color: rgb(236, 172, 208);
+}
+
+.category-post {
+  background-color: rgba(213, 185, 240, 0.816);
+}
+
+.menu-row {
+  display: flex;
+  border-bottom: 1px dashed grey;
+  margin: 3px 0;
+}
+
+.menu-item {
+  flex: 1;
+}
+
+.menu-num {
+  font-family: "NeoDunggeunmo";
+  padding-left: 6px;
+  color: #003399;
+}
+
+.miniroom-gif-box {
+  background-color: #1597dd;
+  border: 1px solid #808080;
+  width: 512px;
+  height: 288px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.miniroom-gif-box > img {
+  width: 100%;
+}
