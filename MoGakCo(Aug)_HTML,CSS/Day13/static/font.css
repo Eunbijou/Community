@@ -1,0 +1,18 @@
+.font-neo{
+  font-size: 12px;
+}
+
+.font-nanum{
+  font-size: 11px;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.content-title-name{
+  font-family: 'Single Day', cursive;
+  font-size: 17px;
+}
+
+.menu{
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 15px;
+}
