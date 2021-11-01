@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day04. console.log() 사용</title>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      let counter = 0
+      const h1 = document.querySelector('h1')
+
+      h1.addEventListener('click', (event) => {
+        counter++
+        h1.textContent = `Click : ${counter}`
+      })
+    })
+  </script>
+  <style>
+    h1{
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Click : 0</h1>
+</body>
+</html>
