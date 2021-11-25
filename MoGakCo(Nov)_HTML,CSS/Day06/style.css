@@ -1,0 +1,29 @@
+.main{
+  padding: 0px 30px;
+  margin: 0px 20px;
+}
+h2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+}
+h2 span{
+  font-size: 30px;
+}
+.sub{
+  margin: 0px 15px;
+}
+h4{
+  font-family: 'Hahmlet', serif;
+  font-size: 25px;
+}
+ol{
+  font-family: 'Gowun Dodum', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+}
+li a{
+  text-decoration-line: none;
+}
+li a:hover{
+  font-size: 25px;
+}

@@ -1,0 +1,53 @@
+* {
+  background-color: lightsteelblue;
+  text-align: center;
+}
+h3{
+  background-color: skyblue;
+  color:whitesmoke;
+  font-family: 'Cute Font', cursive;
+  font-size: 30px;
+}
+#sub span{
+  font-style: italic;
+  font-family: 'Single Day', cursive;
+  font-size: 20px;
+}
+#sub span:nth-child(2){ /*홍쓴이네*/
+  font-weight: bold;
+  font-size: 25px;
+}
+#sub span:nth-child(4){ /*개그우먼*/
+  font-weight: bold;
+}
+#sub span:nth-child(5){ /*홍현희*/
+  font-weight: bold;
+  font-size: 25px;
+}
+#sub span:nth-child(6){ /*디자이너*/
+  font-weight: bold;
+}
+#sub span:nth-child(7){ /*제이쓴*/
+  font-weight: bold;
+  font-size: 25px;
+}
+#sub a:hover{
+  color:khaki;
+  font-size: 23px;
+}
+#sub a{
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 20px;
+}
+.container{
+  background-color: skyblue;
+}
+.container a{
+  background-color: skyblue;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 20px;
+}
+.container a:hover{
+  color: khaki;
+  font-size: 25px;
+}

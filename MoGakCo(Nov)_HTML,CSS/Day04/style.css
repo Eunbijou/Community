@@ -1,0 +1,24 @@
+* {
+  background-color: lightsteelblue;
+  text-align: center;
+}
+h3{
+  background-color: skyblue;
+  color:whitesmoke;
+}
+#sub span{
+  font-style: italic;
+  font-weight: bold;
+}
+#sub a:hover{
+  color:khaki;
+}
+.container{
+  background-color: skyblue;
+}
+.container a{
+  background-color: skyblue;
+}
+.container a:hover{
+  color: khaki;
+}

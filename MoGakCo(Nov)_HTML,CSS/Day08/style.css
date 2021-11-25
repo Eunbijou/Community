@@ -1,0 +1,64 @@
+.diamond {
+  margin: 100px;
+  width: 0;
+  height: 0;
+  border: 250px solid transparent;
+  border-bottom-color: #cafff7;
+  position: relative;
+  top: -250px;
+}
+.diamond::after {
+  content: '';
+  position: absolute;
+  left: -250px;
+  top: 250px;
+  width: 0;
+  height: 0;
+  border: 250px solid transparent;
+  border-top-color: #cafff7;
+}
+
+.heart {
+  margin: 200px;
+  width: 250px;
+  height: 250px;
+  background: red;
+  position: relative;
+  transform: rotate(45deg);
+}
+.heart::before,
+.heart::after {
+  content: "";
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  border-radius: 50%;
+  background: red;
+}
+.heart::before {
+  left: -50%;
+}
+.heart::after {
+  top: -50%;
+}
+
+.star {
+  margin: 100px;
+  width: 0;
+  height: 0;
+  border-left: 250px solid transparent;
+  border-right: 250px solid transparent;
+  border-bottom: 400px solid yellow;
+  position: relative;
+}
+.star::after {
+  width: 0;
+  height: 0;
+  border-left: 250px solid transparent;
+  border-right: 250px solid transparent;
+  border-top: 400px solid yellow;
+  position: absolute;
+  content: "";
+  top: 100px;
+  left: -250px;
+}

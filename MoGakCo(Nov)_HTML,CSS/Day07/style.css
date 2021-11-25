@@ -1,0 +1,36 @@
+body{
+  position: fixed;
+  top: 20px;
+  left: 25px;
+}
+.title{
+  position: static;
+  padding-bottom: 5px;
+  width: 600px;
+  font-size: 35px;
+  font-style: italic;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-align: center;
+  background-color: rgb(219, 255, 255);
+  font-family: 'Hi Melody', cursive;
+}
+.sub{
+  padding-left: 450px;
+  padding-bottom: 7px;
+  font-weight: bold;
+  font-size: 125%;
+  width: 150px;
+  background-color: rgb(255, 220, 226);
+  font-family: 'Nanum Brush Script', cursive;
+}
+.main{
+  position: relative;
+  width: 593px;
+  height: 300px;
+  background-color: cornsilk;
+  padding: 10px 0 0 7px;
+  font-size: 16pt;
+  font-family: 'Nanum Pen Script', cursive;
+  text-align: center;
+}
