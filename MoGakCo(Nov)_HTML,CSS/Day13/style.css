@@ -1,0 +1,49 @@
+.container {
+	display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.item1{
+    background-color: lightcoral;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin: 50px;
+}
+.item2{
+    background-color: lightsalmon;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin: 50px;
+}
+.item3{
+    background-color: lightskyblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin: 50px;
+}
+.item4{
+    background-color: lightseagreen;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin: 50px;
+}
+.item5{
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin: 50px;
+}
+  
+  
